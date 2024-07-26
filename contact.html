@@ -1,848 +1,11 @@
 <html lang="en"
+    style="---ai-create-color-theme-50: #E8F7FF; --ai-create-color-theme-100: #A3CAE0; --ai-create-color-theme-200: #6A9FC2; --ai-create-color-theme-300: #3B76A3; --ai-create-color-theme-400: #185285; --ai-create-color-theme-500: #003366; --ai-create-color-theme-600: #002D61; --ai-create-color-theme-700: #00285C; --ai-create-color-theme-800: #002357; --ai-create-color-theme-900: #001E52; --ai-create-color-theme-950: #001A4D;"
     class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+
 
 <head>
     <meta charset="UTF-8">
-    <style type="text/css">
-        :host,
-        :root {
-            --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
-            --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
-            --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
-            --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
-            --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
-            --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
-            --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
-            --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
-            --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
-            --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands"
-        }
-
-        svg:not(:host).svg-inline--fa,
-        svg:not(:root).svg-inline--fa {
-            overflow: visible;
-            box-sizing: content-box
-        }
-
-        .svg-inline--fa {
-            display: var(--fa-display, inline-block);
-            height: 1em;
-            overflow: visible;
-            vertical-align: -.125em
-        }
-
-        .svg-inline--fa.fa-2xs {
-            vertical-align: .1em
-        }
-
-        .svg-inline--fa.fa-xs {
-            vertical-align: 0
-        }
-
-        .svg-inline--fa.fa-sm {
-            vertical-align: -.0714285705em
-        }
-
-        .svg-inline--fa.fa-lg {
-            vertical-align: -.2em
-        }
-
-        .svg-inline--fa.fa-xl {
-            vertical-align: -.25em
-        }
-
-        .svg-inline--fa.fa-2xl {
-            vertical-align: -.3125em
-        }
-
-        .svg-inline--fa.fa-pull-left {
-            margin-right: var(--fa-pull-margin, .3em);
-            width: auto
-        }
-
-        .svg-inline--fa.fa-pull-right {
-            margin-left: var(--fa-pull-margin, .3em);
-            width: auto
-        }
-
-        .svg-inline--fa.fa-li {
-            width: var(--fa-li-width, 2em);
-            top: .25em
-        }
-
-        .svg-inline--fa.fa-fw {
-            width: var(--fa-fw-width, 1.25em)
-        }
-
-        .fa-layers svg.svg-inline--fa {
-            bottom: 0;
-            left: 0;
-            margin: auto;
-            position: absolute;
-            right: 0;
-            top: 0
-        }
-
-        .fa-layers-counter,
-        .fa-layers-text {
-            display: inline-block;
-            position: absolute;
-            text-align: center
-        }
-
-        .fa-layers {
-            display: inline-block;
-            height: 1em;
-            position: relative;
-            text-align: center;
-            vertical-align: -.125em;
-            width: 1em
-        }
-
-        .fa-layers svg.svg-inline--fa {
-            -webkit-transform-origin: center center;
-            transform-origin: center center
-        }
-
-        .fa-layers-text {
-            left: 50%;
-            top: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            -webkit-transform-origin: center center;
-            transform-origin: center center
-        }
-
-        .fa-layers-counter {
-            background-color: var(--fa-counter-background-color, #ff253a);
-            border-radius: var(--fa-counter-border-radius, 1em);
-            box-sizing: border-box;
-            color: var(--fa-inverse, #fff);
-            line-height: var(--fa-counter-line-height, 1);
-            max-width: var(--fa-counter-max-width, 5em);
-            min-width: var(--fa-counter-min-width, 1.5em);
-            overflow: hidden;
-            padding: var(--fa-counter-padding, .25em .5em);
-            right: var(--fa-right, 0);
-            text-overflow: ellipsis;
-            top: var(--fa-top, 0);
-            -webkit-transform: scale(var(--fa-counter-scale, .25));
-            transform: scale(var(--fa-counter-scale, .25));
-            -webkit-transform-origin: top right;
-            transform-origin: top right
-        }
-
-        .fa-layers-bottom-right {
-            bottom: var(--fa-bottom, 0);
-            right: var(--fa-right, 0);
-            top: auto;
-            -webkit-transform: scale(var(--fa-layers-scale, .25));
-            transform: scale(var(--fa-layers-scale, .25));
-            -webkit-transform-origin: bottom right;
-            transform-origin: bottom right
-        }
-
-        .fa-layers-bottom-left {
-            bottom: var(--fa-bottom, 0);
-            left: var(--fa-left, 0);
-            right: auto;
-            top: auto;
-            -webkit-transform: scale(var(--fa-layers-scale, .25));
-            transform: scale(var(--fa-layers-scale, .25));
-            -webkit-transform-origin: bottom left;
-            transform-origin: bottom left
-        }
-
-        .fa-layers-top-right {
-            top: var(--fa-top, 0);
-            right: var(--fa-right, 0);
-            -webkit-transform: scale(var(--fa-layers-scale, .25));
-            transform: scale(var(--fa-layers-scale, .25));
-            -webkit-transform-origin: top right;
-            transform-origin: top right
-        }
-
-        .fa-layers-top-left {
-            left: var(--fa-left, 0);
-            right: auto;
-            top: var(--fa-top, 0);
-            -webkit-transform: scale(var(--fa-layers-scale, .25));
-            transform: scale(var(--fa-layers-scale, .25));
-            -webkit-transform-origin: top left;
-            transform-origin: top left
-        }
-
-        .fa-1x {
-            font-size: 1em
-        }
-
-        .fa-2x {
-            font-size: 2em
-        }
-
-        .fa-3x {
-            font-size: 3em
-        }
-
-        .fa-4x {
-            font-size: 4em
-        }
-
-        .fa-5x {
-            font-size: 5em
-        }
-
-        .fa-6x {
-            font-size: 6em
-        }
-
-        .fa-7x {
-            font-size: 7em
-        }
-
-        .fa-8x {
-            font-size: 8em
-        }
-
-        .fa-9x {
-            font-size: 9em
-        }
-
-        .fa-10x {
-            font-size: 10em
-        }
-
-        .fa-2xs {
-            font-size: .625em;
-            line-height: .1em;
-            vertical-align: .225em
-        }
-
-        .fa-xs {
-            font-size: .75em;
-            line-height: .0833333337em;
-            vertical-align: .125em
-        }
-
-        .fa-sm {
-            font-size: .875em;
-            line-height: .0714285718em;
-            vertical-align: .0535714295em
-        }
-
-        .fa-lg {
-            font-size: 1.25em;
-            line-height: .05em;
-            vertical-align: -.075em
-        }
-
-        .fa-xl {
-            font-size: 1.5em;
-            line-height: .0416666682em;
-            vertical-align: -.125em
-        }
-
-        .fa-2xl {
-            font-size: 2em;
-            line-height: .03125em;
-            vertical-align: -.1875em
-        }
-
-        .fa-fw {
-            text-align: center;
-            width: 1.25em
-        }
-
-        .fa-ul {
-            list-style-type: none;
-            margin-left: var(--fa-li-margin, 2.5em);
-            padding-left: 0
-        }
-
-        .fa-ul>li {
-            position: relative
-        }
-
-        .fa-li {
-            left: calc(var(--fa-li-width, 2em) * -1);
-            position: absolute;
-            text-align: center;
-            width: var(--fa-li-width, 2em);
-            line-height: inherit
-        }
-
-        .fa-border {
-            border-color: var(--fa-border-color, #eee);
-            border-radius: var(--fa-border-radius, .1em);
-            border-style: var(--fa-border-style, solid);
-            border-width: var(--fa-border-width, .08em);
-            padding: var(--fa-border-padding, .2em .25em .15em)
-        }
-
-        .fa-pull-left {
-            float: left;
-            margin-right: var(--fa-pull-margin, .3em)
-        }
-
-        .fa-pull-right {
-            float: right;
-            margin-left: var(--fa-pull-margin, .3em)
-        }
-
-        .fa-beat {
-            -webkit-animation-name: fa-beat;
-            animation-name: fa-beat;
-            -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 1s);
-            animation-duration: var(--fa-animation-duration, 1s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
-            animation-timing-function: var(--fa-animation-timing, ease-in-out)
-        }
-
-        .fa-bounce {
-            -webkit-animation-name: fa-bounce;
-            animation-name: fa-bounce;
-            -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 1s);
-            animation-duration: var(--fa-animation-duration, 1s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(.28, .84, .42, 1));
-            animation-timing-function: var(--fa-animation-timing, cubic-bezier(.28, .84, .42, 1))
-        }
-
-        .fa-fade {
-            -webkit-animation-name: fa-fade;
-            animation-name: fa-fade;
-            -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 1s);
-            animation-duration: var(--fa-animation-duration, 1s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1));
-            animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1))
-        }
-
-        .fa-beat-fade {
-            -webkit-animation-name: fa-beat-fade;
-            animation-name: fa-beat-fade;
-            -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 1s);
-            animation-duration: var(--fa-animation-duration, 1s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1));
-            animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1))
-        }
-
-        .fa-flip {
-            -webkit-animation-name: fa-flip;
-            animation-name: fa-flip;
-            -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 1s);
-            animation-duration: var(--fa-animation-duration, 1s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
-            animation-timing-function: var(--fa-animation-timing, ease-in-out)
-        }
-
-        .fa-shake {
-            -webkit-animation-name: fa-shake;
-            animation-name: fa-shake;
-            -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 1s);
-            animation-duration: var(--fa-animation-duration, 1s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, linear);
-            animation-timing-function: var(--fa-animation-timing, linear)
-        }
-
-        .fa-spin {
-            -webkit-animation-name: fa-spin;
-            animation-name: fa-spin;
-            -webkit-animation-delay: var(--fa-animation-delay, 0s);
-            animation-delay: var(--fa-animation-delay, 0s);
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 2s);
-            animation-duration: var(--fa-animation-duration, 2s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, linear);
-            animation-timing-function: var(--fa-animation-timing, linear)
-        }
-
-        .fa-spin-reverse {
-            --fa-animation-direction: reverse
-        }
-
-        .fa-pulse,
-        .fa-spin-pulse {
-            -webkit-animation-name: fa-spin;
-            animation-name: fa-spin;
-            -webkit-animation-direction: var(--fa-animation-direction, normal);
-            animation-direction: var(--fa-animation-direction, normal);
-            -webkit-animation-duration: var(--fa-animation-duration, 1s);
-            animation-duration: var(--fa-animation-duration, 1s);
-            -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            animation-iteration-count: var(--fa-animation-iteration-count, infinite);
-            -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
-            animation-timing-function: var(--fa-animation-timing, steps(8))
-        }
-
-        @media (prefers-reduced-motion:reduce) {
-
-            .fa-beat,
-            .fa-beat-fade,
-            .fa-bounce,
-            .fa-fade,
-            .fa-flip,
-            .fa-pulse,
-            .fa-shake,
-            .fa-spin,
-            .fa-spin-pulse {
-                -webkit-animation-delay: -1ms;
-                animation-delay: -1ms;
-                -webkit-animation-duration: 1ms;
-                animation-duration: 1ms;
-                -webkit-animation-iteration-count: 1;
-                animation-iteration-count: 1;
-                -webkit-transition-delay: 0s;
-                transition-delay: 0s;
-                -webkit-transition-duration: 0s;
-                transition-duration: 0s
-            }
-        }
-
-        @-webkit-keyframes fa-beat {
-
-            0%,
-            90% {
-                -webkit-transform: scale(1);
-                transform: scale(1)
-            }
-
-            45% {
-                -webkit-transform: scale(var(--fa-beat-scale, 1.25));
-                transform: scale(var(--fa-beat-scale, 1.25))
-            }
-        }
-
-        @keyframes fa-beat {
-
-            0%,
-            90% {
-                -webkit-transform: scale(1);
-                transform: scale(1)
-            }
-
-            45% {
-                -webkit-transform: scale(var(--fa-beat-scale, 1.25));
-                transform: scale(var(--fa-beat-scale, 1.25))
-            }
-        }
-
-        @-webkit-keyframes fa-bounce {
-            0% {
-                -webkit-transform: scale(1, 1) translateY(0);
-                transform: scale(1, 1) translateY(0)
-            }
-
-            10% {
-                -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0);
-                transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0)
-            }
-
-            30% {
-                -webkit-transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em));
-                transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em))
-            }
-
-            50% {
-                -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0);
-                transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0)
-            }
-
-            57% {
-                -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em));
-                transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em))
-            }
-
-            64% {
-                -webkit-transform: scale(1, 1) translateY(0);
-                transform: scale(1, 1) translateY(0)
-            }
-
-            100% {
-                -webkit-transform: scale(1, 1) translateY(0);
-                transform: scale(1, 1) translateY(0)
-            }
-        }
-
-        @keyframes fa-bounce {
-            0% {
-                -webkit-transform: scale(1, 1) translateY(0);
-                transform: scale(1, 1) translateY(0)
-            }
-
-            10% {
-                -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0);
-                transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0)
-            }
-
-            30% {
-                -webkit-transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em));
-                transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em))
-            }
-
-            50% {
-                -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0);
-                transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0)
-            }
-
-            57% {
-                -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em));
-                transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em))
-            }
-
-            64% {
-                -webkit-transform: scale(1, 1) translateY(0);
-                transform: scale(1, 1) translateY(0)
-            }
-
-            100% {
-                -webkit-transform: scale(1, 1) translateY(0);
-                transform: scale(1, 1) translateY(0)
-            }
-        }
-
-        @-webkit-keyframes fa-fade {
-            50% {
-                opacity: var(--fa-fade-opacity, .4)
-            }
-        }
-
-        @keyframes fa-fade {
-            50% {
-                opacity: var(--fa-fade-opacity, .4)
-            }
-        }
-
-        @-webkit-keyframes fa-beat-fade {
-
-            0%,
-            100% {
-                opacity: var(--fa-beat-fade-opacity, .4);
-                -webkit-transform: scale(1);
-                transform: scale(1)
-            }
-
-            50% {
-                opacity: 1;
-                -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
-                transform: scale(var(--fa-beat-fade-scale, 1.125))
-            }
-        }
-
-        @keyframes fa-beat-fade {
-
-            0%,
-            100% {
-                opacity: var(--fa-beat-fade-opacity, .4);
-                -webkit-transform: scale(1);
-                transform: scale(1)
-            }
-
-            50% {
-                opacity: 1;
-                -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
-                transform: scale(var(--fa-beat-fade-scale, 1.125))
-            }
-        }
-
-        @-webkit-keyframes fa-flip {
-            50% {
-                -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
-                transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg))
-            }
-        }
-
-        @keyframes fa-flip {
-            50% {
-                -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
-                transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg))
-            }
-        }
-
-        @-webkit-keyframes fa-shake {
-            0% {
-                -webkit-transform: rotate(-15deg);
-                transform: rotate(-15deg)
-            }
-
-            4% {
-                -webkit-transform: rotate(15deg);
-                transform: rotate(15deg)
-            }
-
-            24%,
-            8% {
-                -webkit-transform: rotate(-18deg);
-                transform: rotate(-18deg)
-            }
-
-            12%,
-            28% {
-                -webkit-transform: rotate(18deg);
-                transform: rotate(18deg)
-            }
-
-            16% {
-                -webkit-transform: rotate(-22deg);
-                transform: rotate(-22deg)
-            }
-
-            20% {
-                -webkit-transform: rotate(22deg);
-                transform: rotate(22deg)
-            }
-
-            32% {
-                -webkit-transform: rotate(-12deg);
-                transform: rotate(-12deg)
-            }
-
-            36% {
-                -webkit-transform: rotate(12deg);
-                transform: rotate(12deg)
-            }
-
-            100%,
-            40% {
-                -webkit-transform: rotate(0);
-                transform: rotate(0)
-            }
-        }
-
-        @keyframes fa-shake {
-            0% {
-                -webkit-transform: rotate(-15deg);
-                transform: rotate(-15deg)
-            }
-
-            4% {
-                -webkit-transform: rotate(15deg);
-                transform: rotate(15deg)
-            }
-
-            24%,
-            8% {
-                -webkit-transform: rotate(-18deg);
-                transform: rotate(-18deg)
-            }
-
-            12%,
-            28% {
-                -webkit-transform: rotate(18deg);
-                transform: rotate(18deg)
-            }
-
-            16% {
-                -webkit-transform: rotate(-22deg);
-                transform: rotate(-22deg)
-            }
-
-            20% {
-                -webkit-transform: rotate(22deg);
-                transform: rotate(22deg)
-            }
-
-            32% {
-                -webkit-transform: rotate(-12deg);
-                transform: rotate(-12deg)
-            }
-
-            36% {
-                -webkit-transform: rotate(12deg);
-                transform: rotate(12deg)
-            }
-
-            100%,
-            40% {
-                -webkit-transform: rotate(0);
-                transform: rotate(0)
-            }
-        }
-
-        @-webkit-keyframes fa-spin {
-            0% {
-                -webkit-transform: rotate(0);
-                transform: rotate(0)
-            }
-
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
-            }
-        }
-
-        @keyframes fa-spin {
-            0% {
-                -webkit-transform: rotate(0);
-                transform: rotate(0)
-            }
-
-            100% {
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg)
-            }
-        }
-
-        .fa-rotate-90 {
-            -webkit-transform: rotate(90deg);
-            transform: rotate(90deg)
-        }
-
-        .fa-rotate-180 {
-            -webkit-transform: rotate(180deg);
-            transform: rotate(180deg)
-        }
-
-        .fa-rotate-270 {
-            -webkit-transform: rotate(270deg);
-            transform: rotate(270deg)
-        }
-
-        .fa-flip-horizontal {
-            -webkit-transform: scale(-1, 1);
-            transform: scale(-1, 1)
-        }
-
-        .fa-flip-vertical {
-            -webkit-transform: scale(1, -1);
-            transform: scale(1, -1)
-        }
-
-        .fa-flip-both,
-        .fa-flip-horizontal.fa-flip-vertical {
-            -webkit-transform: scale(-1, -1);
-            transform: scale(-1, -1)
-        }
-
-        .fa-rotate-by {
-            -webkit-transform: rotate(var(--fa-rotate-angle, none));
-            transform: rotate(var(--fa-rotate-angle, none))
-        }
-
-        .fa-stack {
-            display: inline-block;
-            vertical-align: middle;
-            height: 2em;
-            position: relative;
-            width: 2.5em
-        }
-
-        .fa-stack-1x,
-        .fa-stack-2x {
-            bottom: 0;
-            left: 0;
-            margin: auto;
-            position: absolute;
-            right: 0;
-            top: 0;
-            z-index: var(--fa-stack-z-index, auto)
-        }
-
-        .svg-inline--fa.fa-stack-1x {
-            height: 1em;
-            width: 1.25em
-        }
-
-        .svg-inline--fa.fa-stack-2x {
-            height: 2em;
-            width: 2.5em
-        }
-
-        .fa-inverse {
-            color: var(--fa-inverse, #fff)
-        }
-
-        .fa-sr-only,
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border-width: 0
-        }
-
-        .fa-sr-only-focusable:not(:focus),
-        .sr-only-focusable:not(:focus) {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border-width: 0
-        }
-
-        .svg-inline--fa .fa-primary {
-            fill: var(--fa-primary-color, currentColor);
-            opacity: var(--fa-primary-opacity, 1)
-        }
-
-        .svg-inline--fa .fa-secondary {
-            fill: var(--fa-secondary-color, currentColor);
-            opacity: var(--fa-secondary-opacity, .4)
-        }
-
-        .svg-inline--fa.fa-swap-opacity .fa-primary {
-            opacity: var(--fa-secondary-opacity, .4)
-        }
-
-        .svg-inline--fa.fa-swap-opacity .fa-secondary {
-            opacity: var(--fa-primary-opacity, 1)
-        }
-
-        .svg-inline--fa mask .fa-primary,
-        .svg-inline--fa mask .fa-secondary {
-            fill: #000
-        }
-
-        .fa-duotone.fa-inverse,
-        .fad.fa-inverse {
-            color: var(--fa-inverse, #fff)
-        }
-    </style>
+    <link rel="stylesheet" href="contact.css">
     <link rel="icon" href="https://cdn.wegic.ai/assets/onepage/thread/icon/1720505482463.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service Providers Profile - Smart Tenders Scheme</title>
@@ -3213,536 +2376,550 @@
         <section class="sticky top-0 z-40 w-full h-16 bg-white/80 backdrop-blur-xl dark:bg-black/80 md:px-8">
             <div
                 class="w-full mx-auto max-w-7xl h-full hidden gap-5 md:grid md:grid-cols-[1fr_0.5fr_1fr] md:items-center">
-                <nav class="w-full h-full flex items-center justify-start"><button
-                        class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=home&amp;target=_blank&amp;text=Homepage">Homepage</div>
-                    </button><button
-                        class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=signin-signup&amp;target=_blank&amp;text=Signin%2FSignup">Signin/Signup
-                        </div>
-                    </button><button
-                        class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=service-providers-profile&amp;target=_blank&amp;text=Service%20Providers%20Profile">
-                            Service Providers Profile</div>
-                    </button></nav>
-                <div class="w-full h-full flex items-center justify-center"><img class="w-auto h-10 object-cover"
-                        alt="logo" src="https://cdn.wegic.ai/assets/onepage/thread/icon/1720505482463.png"
-                        style="background-color: transparent;"></div>
-                <div class="w-full h-full flex items-center justify-end"><button
-                        class="BTN-PRIMARY w-fit h-10 px-5 group text-sm whitespace-nowrap font-semibold text-white flex gap-2 items-center rounded-full bg-blue-500 hover:bg-blue-600 hover:transition-all hover:duration-300">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=Contact%20us">Contact us</div>
-                        <div class="_icon-wrapper_1a3wa_1 text-sm text-white group-hover:translate-x-1 transition-all"
+                <nav class="w-full h-full flex items-center justify-start">
+                    <a href="./index.html">
+                        <button
+                            class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60">
+
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=home&amp;target=_blank&amp;text=Homepage">Homepage</div>
+                        </button>
+                    </a>
+                    <a href="./signin.html">
+                        <button
+                            class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60">
+
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=signin-signup&amp;target=_blank&amp;text=Signin%2FSignup">Signin/Signup
+                            </div>
+                        </button>
+                    </a>
+                    <a href="./services.html">
+                        <button
+                            class="pr-12 py-3 text-black whitespace-nowrap cursor-pointer hover:text-black/60 hover:transition-all duration-100 dark:text-white dark:hover:text-white/60">
+
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=service-providers-profile&amp;target=_blank&amp;text=Service%20Providers%20Profile">
+                                Service Providers Profile</div>
+                        </button>
+                    </a>
+                </nav>
+                <a href="./index.html">
+
+                    <div class="w-full h-full flex items-center justify-center"><img class="w-auto h-10 object-cover"
+                            alt="logo" src="https://cdn.wegic.ai/assets/onepage/thread/icon/1720505482463.png"
+                            style="background-color: transparent;"></div>
+                </a>
+
+                <a href="./contact.html">
+                    <div class="w-full h-full flex items-center justify-end"><button
+                            class="BTN-PRIMARY w-fit h-10 px-5 group text-sm whitespace-nowrap font-semibold text-white flex gap-2 items-center rounded-full bg-blue-500 hover:bg-blue-600 hover:transition-all hover:duration-300">
+
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Contact%20us">Contact us
+                            </div>
+                            <div class="_icon-wrapper_1a3wa_1 text-sm text-white group-hover:translate-x-1 transition-all"
                             data-library="FontAwesome" data-link="link=&amp;target=_blank" propkey="primaryButton_icon">
-                            <svg class="svg-inline--fa fa-arrow-right" aria-hidden="true" focusable="false"
-                                data-prefix="fas" data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 448 512" data-fa-i2svg="">
-                                <path fill="currentColor"
-                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
-                                </path>
-                            </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com --></div>
-                    </button></div>
-            </div>
-            <div class="relative z-40 w-full h-full flex items-center md:hidden"><img
-                    class="w-auto h-10 px-6 object-cover" alt="logo"><button class="absolute right-6" tabindex="0"><svg
-                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                        class="w-8 h-8 fill-black dark:fill-white">
-                        <path fill-rule="evenodd"
-                            d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
-                            clip-rule="evenodd"></path>
-                    </svg></button></div>
-        </section>
-        <div class="bg-white py-24 sm:py-32 relative dark:bg-slate-800">
-            <div class="mx-auto max-w-7xl px-6 lg:px-8 relative">
-                <div class="mx-auto max-w-2xl lg:mx-0">
-                    <p class="DESC text-base font-semibold leading-7 text-sky-600 dark:text-sky-300">
-                    <div class="_editable_jwu41_1 undefined"
-                        data-link="link=&amp;target=_blank&amp;text=Empower%20Your%20Bidding">Empower Your Bidding</div>
-                    </p>
-                    <h2
-                        class="TITLE-PRIMARY mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-6xl">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=Service%20Providers%20Profile">Service Providers
-                            Profile</div>
-                    </h2>
-                    <p class="DESC mt-6 text-lg leading-8 text-slate-700 dark:text-slate-300">
-                    <div class="_editable_jwu41_1 undefined"
-                        data-link="link=&amp;target=_blank&amp;text=Create%20and%20manage%20your%20profile%20to%20bid%20on%20tenders%20from%20various%20government%20and%20private%20agencies.%20Showcase%20your%20expertise%20and%20win%20more%20contracts.">
-                        Create and manage your profile to bid on tenders from various government and private agencies.
-                        Showcase your expertise and win more contracts.</div>
-                    </p>
+                            <svg class="svg-inline--fa fa-arrow-right" aria-hidden="true" focusable="false" data-prefix="fas"
+                            data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            data-fa-i2svg="">
+                            <path fill="currentColor"
+                            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                        </path>
+                    </svg><!-- <i class="fa-solid fa-arrow-right"></i> Font Awesome fontawesome.com -->
                 </div>
+            </button>
+        </div>
+    </a>
+    </div>
+    <div class="relative z-40 w-full h-full flex items-center md:hidden"><img class="w-auto h-10 px-6 object-cover"
+            alt="logo"><button class="absolute right-6" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 fill-black dark:fill-white">
+                <path fill-rule="evenodd"
+                    d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+                    clip-rule="evenodd"></path>
+            </svg></button></div>
+    </section>
+    <div class="bg-white py-24 sm:py-32 relative dark:bg-slate-800">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8 relative">
+            <div class="mx-auto max-w-2xl lg:mx-0">
+                <p class="DESC text-base font-semibold leading-7 text-sky-600 dark:text-sky-300">
+                <div class="_editable_jwu41_1 undefined"
+                    data-link="link=&amp;target=_blank&amp;text=Empower%20Your%20Bidding">Empower Your Bidding</div>
+                </p>
+                <h2
+                    class="TITLE-PRIMARY mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-6xl">
+                    <div class="_editable_jwu41_1 undefined"
+                        data-link="link=&amp;target=_blank&amp;text=Service%20Providers%20Profile">Service Providers
+                        Profile</div>
+                </h2>
+                <p class="DESC mt-6 text-lg leading-8 text-slate-700 dark:text-slate-300">
+                <div class="_editable_jwu41_1 undefined"
+                    data-link="link=&amp;target=_blank&amp;text=Create%20and%20manage%20your%20profile%20to%20bid%20on%20tenders%20from%20various%20government%20and%20private%20agencies.%20Showcase%20your%20expertise%20and%20win%20more%20contracts.">
+                    Create and manage your profile to bid on tenders from various government and private agencies.
+                    Showcase your expertise and win more contracts.</div>
+                </p>
             </div>
         </div>
-        <section class="py-10 bg-slate-50 dark:bg-slate-800">
-            <div class="px-4 py-10 mx-auto max-w-7xl flex flex-col gap-20">
-                <div style="opacity: 1; transform: none;">
-                    <div class=" grid grid-cols-1 items-center gap-14 md:grid-cols-2">
-                        <div class="flex flex-col gap-6">
-                            <h2 class="TITLE-PRIMARY text-4xl font-semibold text-slate-900 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=How%20It%20Works%3F">How It Works?</div>
-                            </h2>
-                            <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
+    </div>
+    <section class="py-10 bg-slate-50 dark:bg-slate-800">
+        <div class="px-4 py-10 mx-auto max-w-7xl flex flex-col gap-20">
+            <div style="opacity: 1; transform: none;">
+                <div class=" grid grid-cols-1 items-center gap-14 md:grid-cols-2">
+                    <div class="flex flex-col gap-6">
+                        <h2 class="TITLE-PRIMARY text-4xl font-semibold text-slate-900 dark:text-white/90">
                             <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Follow%20these%20steps%20to%20get%20started%20and%20maximize%20your%20opportunities%20on%20Smart%20Tenders%20Scheme.">
-                                Follow these steps to get started and maximize your opportunities on Smart Tenders
-                                Scheme.</div>
-                            </p>
-                        </div><img class="IMAGE object-cover w-full rounded-lg aspect-[2/1]"
-                            alt="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000"
-                            src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000"
-                            style="background-color: transparent;">
-                    </div>
-                </div>
-                <div>
-                    <div class="grid grid-cols-1 gap-16 md:grid-cols-3">
-                        <div class="w-full flex flex-row gap-8 md:flex-col">
-                            <div class="relative flex flex-col items-center md:flex-row">
-                                <div
-                                    class="inline-flex items-center justify-center w-12 h-12 text-xl font-medium text-white bg-sky-500 rounded-full shrink-0">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=01">01</div>
-                                </div>
-                                <div
-                                    class="absolute top-16 w-px h-3/4 bg-black/10 dark:bg-white/10  md:h-px md:w-3/4 md:ml-8 md:left-10 md:top-6">
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-4">
-                                <h3 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=Create%20Your%20Profile">Create Your
-                                        Profile</div>
-                                </h3>
-                                <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Set%20up%20a%20comprehensive%20profile%20to%20highlight%20your%20services%20and%20past%20projects.">
-                                    Set up a comprehensive profile to highlight your services and past projects.</div>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="w-full flex flex-row gap-8 md:flex-col">
-                            <div class="relative flex flex-col items-center md:flex-row">
-                                <div
-                                    class="inline-flex items-center justify-center w-12 h-12 text-xl font-medium text-white bg-sky-500 rounded-full shrink-0">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=02">02</div>
-                                </div>
-                                <div
-                                    class="absolute top-16 w-px h-3/4 bg-black/10 dark:bg-white/10  md:h-px md:w-3/4 md:ml-8 md:left-10 md:top-6">
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-4">
-                                <h3 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=Browse%20Tenders">Browse Tenders
-                                    </div>
-                                </h3>
-                                <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Explore%20a%20wide%20range%20of%20tenders%20listed%20by%20various%20agencies%20and%20contractors.">
-                                    Explore a wide range of tenders listed by various agencies and contractors.</div>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="w-full flex flex-row gap-8 md:flex-col">
-                            <div class="relative flex flex-col items-center md:flex-row">
-                                <div
-                                    class="inline-flex items-center justify-center w-12 h-12 text-xl font-medium text-white bg-sky-500 rounded-full shrink-0">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=03">03</div>
-                                </div>
-                                <div
-                                    class="absolute top-16 w-px h-3/4 bg-black/10 dark:bg-white/10  md:h-px md:w-3/4 md:ml-8 md:left-10 md:top-6">
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-4">
-                                <h3 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=Submit%20Your%20Bids">Submit Your
-                                        Bids</div>
-                                </h3>
-                                <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Place%20competitive%20bids%20to%20secure%20contracts%20and%20grow%20your%20business.">
-                                    Place competitive bids to secure contracts and grow your business.</div>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="w-full bg-white py-16 sm:py-20 dark:bg-slate-800">
-            <div class="max-w-7xl mx-auto px-4">
-                <div class="mx-auto max-w-2xl sm:text-center">
-                    <h2 class="TITLE-PRIMARY text-4xl font-extrabold text-slate-900 dark:text-white/90">
+                                data-link="link=&amp;target=_blank&amp;text=How%20It%20Works%3F">How It Works?</div>
+                        </h2>
+                        <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
                         <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=Meet%20Our%20Experts">Meet Our Experts</div>
-                    </h2>
-                    <p class="DESC mt-6 text-base font-normal text-slate-700 dark:text-white/90">
-                    <div class="_editable_jwu41_1 undefined"
-                        data-link="link=&amp;target=_blank&amp;text=Our%20team%20is%20dedicated%20to%20providing%20you%20with%20the%20best%20support%20and%20resources%20to%20help%20you%20succeed.">
-                        Our team is dedicated to providing you with the best support and resources to help you succeed.
-                    </div>
-                    </p>
-                </div>
-                <ul role="list"
-                    class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
-                    <div>
-                        <li class="flex flex-col gap-6 xl:flex-row"><img
-                                class="IMAGE w-52 h-65 aspect-[4/5] flex-none rounded-2xl object-cover"
-                                alt="https://images.unsplash.com/photo-1514929781313-76fcbb2136b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1424">
-                            <div class="flex-auto">
-                                <h3
-                                    class="TITLE-SECONDARY text-lg font-semibold leading-8 tracking-tight text-slate-900 dark:text-white/90">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=John%20Doe">John Doe</div>
-                                </h3>
-                                <p class="TEXT-CONTENT text-base leading-7 text-slate-600 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Customer%20Support%20Specialist">
-                                    Customer Support Specialist</div>
-                                </p>
-                                <p class="TEXT-CONTENT mt-6 text-base leading-7 text-slate-600 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=John%20ensures%20that%20all%20your%20queries%20are%20resolved%20promptly%20and%20efficiently.">
-                                    John ensures that all your queries are resolved promptly and efficiently.</div>
-                                </p>
-                            </div>
-                        </li>
-                    </div>
-                    <div>
-                        <li class="flex flex-col gap-6 xl:flex-row"><img
-                                class="IMAGE w-52 h-65 aspect-[4/5] flex-none rounded-2xl object-cover"
-                                alt="https://images.unsplash.com/photo-1493106819501-66d381c466f1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1424">
-                            <div class="flex-auto">
-                                <h3
-                                    class="TITLE-SECONDARY text-lg font-semibold leading-8 tracking-tight text-slate-900 dark:text-white/90">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=Jane%20Smith">Jane Smith</div>
-                                </h3>
-                                <p class="TEXT-CONTENT text-base leading-7 text-slate-600 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Bid%20Consultant">Bid Consultant</div>
-                                </p>
-                                <p class="TEXT-CONTENT mt-6 text-base leading-7 text-slate-600 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Jane%20provides%20expert%20advice%20on%20how%20to%20create%20winning%20bids%20and%20secure%20contracts.">
-                                    Jane provides expert advice on how to create winning bids and secure contracts.
-                                </div>
-                                </p>
-                            </div>
-                        </li>
-                    </div>
-                    <div>
-                        <li class="flex flex-col gap-6 xl:flex-row"><img
-                                class="IMAGE w-52 h-65 aspect-[4/5] flex-none rounded-2xl object-cover"
-                                alt="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1424">
-                            <div class="flex-auto">
-                                <h3
-                                    class="TITLE-SECONDARY text-lg font-semibold leading-8 tracking-tight text-slate-900 dark:text-white/90">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=Robert%20Brown">Robert Brown</div>
-                                </h3>
-                                <p class="TEXT-CONTENT text-base leading-7 text-slate-600 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Technical%20Support%20Engineer">
-                                    Technical Support Engineer</div>
-                                </p>
-                                <p class="TEXT-CONTENT mt-6 text-base leading-7 text-slate-600 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Robert%20assists%20with%20any%20technical%20issues%20you%20may%20encounter%20on%20the%20platform.">
-                                    Robert assists with any technical issues you may encounter on the platform.</div>
-                                </p>
-                            </div>
-                        </li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-        <section class="py-10 bg-slate-50 dark:bg-slate-800 sm:py-16 lg:py-20 xl:py-24">
-            <div class="max-w-7xl mx-auto px-4">
-                <div class="flex flex-col max-w-6xl gap-12 mx-auto lg:items-center lg:justify-between lg:flex-row">
-                    <div class="lg:max-w-md xl:max-w-xl">
-                        <h1 class="TITLE-PRIMARY text-4xl font-extrabold text-slate-900 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Our%20Achievements">Our Achievements</div>
-                        </h1>
-                        <p
-                            class="DESC mt-4 text-base font-normal leading-7 text-slate-700 dark:text-white/80 lg:text-lg lg:mt-6 lg:leading-8">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=We%20are%20proud%20of%20the%20impact%20we%20have%20made%20in%20the%20tendering%20industry.">
-                            We are proud of the impact we have made in the tendering industry.</div>
+                            data-link="link=&amp;target=_blank&amp;text=Follow%20these%20steps%20to%20get%20started%20and%20maximize%20your%20opportunities%20on%20Smart%20Tenders%20Scheme.">
+                            Follow these steps to get started and maximize your opportunities on Smart Tenders
+                            Scheme.</div>
                         </p>
-                    </div>
-                    <div class="grid grid-cols-2 gap-0">
-                        <div class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6  ">
-                            <p
-                                class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=10K%2B">10K+</div>
-                            </p>
-                            <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Registered%20Service%20Providers">
-                                    Registered Service Providers</div>
-                            </h3>
-                        </div>
-                        <div
-                            class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6  border-l border-black/10">
-                            <p
-                                class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined" data-link="link=&amp;target=_blank&amp;text=5K%2B">
-                                5K+</div>
-                            </p>
-                            <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Successful%20Bids">Successful Bids</div>
-                            </h3>
-                        </div>
-                        <div
-                            class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6 border-t border-black/10 ">
-                            <p
-                                class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined" data-link="link=&amp;target=_blank&amp;text=1K%2B">
-                                1K+</div>
-                            </p>
-                            <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Active%20Tenders">Active Tenders</div>
-                            </h3>
-                        </div>
-                        <div
-                            class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6 border-t border-black/10 border-l border-black/10">
-                            <p
-                                class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined" data-link="link=&amp;target=_blank&amp;text=98%25">
-                                98%</div>
-                            </p>
-                            <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=Customer%20Satisfaction%20Rate">Customer
-                                    Satisfaction Rate</div>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="relative py-10 overflow-hidden bg-slate-50 dark:bg-slate-800">
-            <div class="absolute w-full bottom-0 transform -translate-x-1/2 translate-y-full left-1/2">
-                <div class="w-full h-96 bg-gradient-to-r from-sky-500/20 to-sky-500/60  rounded-full filter blur-3xl">
+                    </div><img class="IMAGE object-cover w-full rounded-lg aspect-[2/1]"
+                        alt="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000"
+                        src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1000"
+                        style="background-color: transparent;">
                 </div>
             </div>
             <div>
-                <div class="px-4 mx-auto max-w-7xl py-10 flex flex-col gap-20">
-                    <h1 class="TITLE-PRIMARY text-4xl font-semibold text-slate-900 dark:text-white/90">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=Frequently%20Asked%20Questions">Frequently Asked
-                            Questions</div>
-                    </h1>
-                    <hr class="border-black/10 dark:border-white/10">
-                    <div class="grid grid-cols-1 gap-14 md:grid-cols-3">
-                        <div class="flex flex-col gap-6">
-                            <h2 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
+                <div class="grid grid-cols-1 gap-16 md:grid-cols-3">
+                    <div class="w-full flex flex-row gap-8 md:flex-col">
+                        <div class="relative flex flex-col items-center md:flex-row">
+                            <div
+                                class="inline-flex items-center justify-center w-12 h-12 text-xl font-medium text-white bg-sky-500 rounded-full shrink-0">
                                 <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=How%20do%20I%20create%20a%20profile%3F">
-                                    How do I create a profile?</div>
-                            </h2>
-                            <p class="DESC text-base font-normal text-slate-600 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Click%20on%20the%20%27Sign%20Up%27%20button%20and%20follow%20the%20instructions%20to%20create%20your%20profile.">
-                                Click on the 'Sign Up' button and follow the instructions to create your profile.</div>
-                            </p>
-                        </div>
-                        <div class="flex flex-col gap-6">
-                            <h2 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=How%20can%20I%20find%20relevant%20tenders%3F">
-                                    How can I find relevant tenders?</div>
-                            </h2>
-                            <p class="DESC text-base font-normal text-slate-600 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Use%20the%20search%20and%20filter%20options%20to%20find%20tenders%20that%20match%20your%20expertise.">
-                                Use the search and filter options to find tenders that match your expertise.</div>
-                            </p>
-                        </div>
-                        <div class="flex flex-col gap-6">
-                            <h2 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=&amp;target=_blank&amp;text=What%20is%20the%20bidding%20process%3F">
-                                    What is the bidding process?</div>
-                            </h2>
-                            <p class="DESC text-base font-normal text-slate-600 dark:text-white/90">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Once%20you%20find%20a%20tender%2C%20click%20on%20it%20to%20view%20details%20and%20submit%20your%20bid%20through%20the%20platform.">
-                                Once you find a tender, click on it to view details and submit your bid through the
-                                platform.</div>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="py-10 bg-gradient-to-b from-gray-900 to-gray-600 sm:py-16 lg:py-20 xl:py-24">
-            <div class="mx-auto px-4 max-w-7xl">
-                <div class="grid items-end max-w-5xl grid-cols-1 mx-auto md:grid-cols-2 gap-y-10 gap-x-48">
-                    <div>
-                        <p class="DESC text-base font-semibold text-white/60">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=Get%20in%20Touch%20with%20Smart%20Tenders%20Scheme">
-                            Get in Touch with Smart Tenders Scheme</div>
-                        </p>
-                        <h2 class="TITLE-PRIMARY mt-6 text-4xl font-semibold text-white md:text-5xl">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Need%20Assistance%3F">Need Assistance?</div>
-                        </h2>
-                        <p class="DESC mt-10 text-base font-normal  text-white/90 md:mt-40">
-                        <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=Monday-Friday%2C%209%3A00%20am%20to%206%3A00%20pm">
-                            Monday-Friday, 9:00 am to 6:00 pm</div><span class="block text-white/60">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Our%20team%20is%20here%20to%20help%20you%20with%20any%20questions%20or%20issues.">
-                                Our team is here to help you with any questions or issues.</div>
-                        </span></p>
-                    </div>
-                    <div>
-                        <div class="flex flex-col gap-5">
-                            <p class="DESC text-xs font-semibold tracking-widest text-white/60 uppercase">
-                            <div class="_editable_jwu41_1 undefined"
-                                data-link="link=&amp;target=_blank&amp;text=Contact%20Us">Contact Us</div>
-                            </p>
-                            <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
-                                    href="mailto:support@smarttendersscheme.com" title="support@smarttendersscheme.com">
-                                    <div class="_editable_jwu41_1 undefined"
-                                        data-link="link=&amp;target=_blank&amp;text=support%40smarttendersscheme.com">
-                                        support@smarttendersscheme.com</div>
-                                </button></p>
-                        </div>
-                        <div class="mt-10 md:mt-24">
-                            <p class="DESC text-xs font-semibold tracking-widest text-white/60 uppercase">Follow Us</p>
-                            <div class="grid grid-cols-2 mt-5 gap-y-4 gap-x-8">
-                                <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
-                                        href="https://linkedin.com" title="LinkedIn">
-                                        <div class="_editable_jwu41_1 undefined"
-                                            data-link="link=&amp;target=_blank&amp;text=LinkedIn">LinkedIn</div>
-                                    </button></p>
-                                <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
-                                        href="https://twitter.com" title="Twitter">
-                                        <div class="_editable_jwu41_1 undefined"
-                                            data-link="link=&amp;target=_blank&amp;text=Twitter">Twitter</div>
-                                    </button></p>
-                                <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
-                                        href="https://facebook.com" title="Facebook">
-                                        <div class="_editable_jwu41_1 undefined"
-                                            data-link="link=&amp;target=_blank&amp;text=Facebook">Facebook</div>
-                                    </button></p>
+                                    data-link="link=&amp;target=_blank&amp;text=01">01</div>
+                            </div>
+                            <div
+                                class="absolute top-16 w-px h-3/4 bg-black/10 dark:bg-white/10  md:h-px md:w-3/4 md:ml-8 md:left-10 md:top-6">
                             </div>
                         </div>
+                        <div class="flex flex-col gap-4">
+                            <h3 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=Create%20Your%20Profile">Create Your
+                                    Profile</div>
+                            </h3>
+                            <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Set%20up%20a%20comprehensive%20profile%20to%20highlight%20your%20services%20and%20past%20projects.">
+                                Set up a comprehensive profile to highlight your services and past projects.</div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-row gap-8 md:flex-col">
+                        <div class="relative flex flex-col items-center md:flex-row">
+                            <div
+                                class="inline-flex items-center justify-center w-12 h-12 text-xl font-medium text-white bg-sky-500 rounded-full shrink-0">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=02">02</div>
+                            </div>
+                            <div
+                                class="absolute top-16 w-px h-3/4 bg-black/10 dark:bg-white/10  md:h-px md:w-3/4 md:ml-8 md:left-10 md:top-6">
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h3 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=Browse%20Tenders">Browse Tenders
+                                </div>
+                            </h3>
+                            <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Explore%20a%20wide%20range%20of%20tenders%20listed%20by%20various%20agencies%20and%20contractors.">
+                                Explore a wide range of tenders listed by various agencies and contractors.</div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full flex flex-row gap-8 md:flex-col">
+                        <div class="relative flex flex-col items-center md:flex-row">
+                            <div
+                                class="inline-flex items-center justify-center w-12 h-12 text-xl font-medium text-white bg-sky-500 rounded-full shrink-0">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=03">03</div>
+                            </div>
+                            <div
+                                class="absolute top-16 w-px h-3/4 bg-black/10 dark:bg-white/10  md:h-px md:w-3/4 md:ml-8 md:left-10 md:top-6">
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-4">
+                            <h3 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=Submit%20Your%20Bids">Submit Your
+                                    Bids</div>
+                            </h3>
+                            <p class="DESC text-base font-normal text-slate-600 dark:text-white/70">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Place%20competitive%20bids%20to%20secure%20contracts%20and%20grow%20your%20business.">
+                                Place competitive bids to secure contracts and grow your business.</div>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="bg-black px-6 py-20 md:px-8">
-            <div style="opacity: 1; transform: none;">
-                <div class=" mx-auto max-w-7xl flex flex-col  gap-16">
-                    <ul class="w-full flex items-center justify-center gap-8">
-                        <li><button
-                                class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
+        </div>
+    </section>
+    <div class="w-full bg-white py-16 sm:py-20 dark:bg-slate-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="mx-auto max-w-2xl sm:text-center">
+                <h2 class="TITLE-PRIMARY text-4xl font-extrabold text-slate-900 dark:text-white/90">
+                    <div class="_editable_jwu41_1 undefined"
+                        data-link="link=&amp;target=_blank&amp;text=Meet%20Our%20Experts">Meet Our Experts</div>
+                </h2>
+                <p class="DESC mt-6 text-base font-normal text-slate-700 dark:text-white/90">
+                <div class="_editable_jwu41_1 undefined"
+                    data-link="link=&amp;target=_blank&amp;text=Our%20team%20is%20dedicated%20to%20providing%20you%20with%20the%20best%20support%20and%20resources%20to%20help%20you%20succeed.">
+                    Our team is dedicated to providing you with the best support and resources to help you succeed.
+                </div>
+                </p>
+            </div>
+            <ul role="list"
+                class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
+                <div>
+                    <li class="flex flex-col gap-6 xl:flex-row"><img
+                            class="IMAGE w-52 h-65 aspect-[4/5] flex-none rounded-2xl object-cover"
+                            alt="https://images.unsplash.com/photo-1514929781313-76fcbb2136b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1424">
+                        <div class="flex-auto">
+                            <h3
+                                class="TITLE-SECONDARY text-lg font-semibold leading-8 tracking-tight text-slate-900 dark:text-white/90">
                                 <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=%2Fhome&amp;target=_blank&amp;text=About%20Us">About Us</div>
-                            </button></li>
-                        <li><button
-                                class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=%2Fhome&amp;target=_blank&amp;text=Our%20Services">Our Services
-                                </div>
-                            </button></li>
-                        <li><button
-                                class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=%2Fhome&amp;target=_blank&amp;text=Projects">Projects</div>
-                            </button></li>
-                        <li><button
-                                class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
-                                <div class="_editable_jwu41_1 undefined"
-                                    data-link="link=%2Fhome&amp;target=_blank&amp;text=Careers">Careers</div>
-                            </button></li>
-                    </ul>
-                    <div class="flex flex-col items-center gap-8 md:justify-between md:flex-row">
-                        <div class="flex flex-col items-center justify-between gap-8 md:flex-row">
-                            <ul class="flex items-center gap-8 ">
-                                <li href="https://twitter.com/smarttenders"><button
-                                        class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
-                                        <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
-                                            data-link="link=&amp;target=_blank" propkey="socialMediaItems_0_icon"><svg
-                                                class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false"
-                                                data-prefix="fab" data-icon="twitter" role="img"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                                                data-fa-i2svg="">
-                                                <path fill="currentColor"
-                                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
-                                                </path>
-                                            </svg><!-- <i class="fa-brands fa-twitter"></i> Font Awesome fontawesome.com -->
-                                        </div>
-                                    </button></li>
-                                <li href="https://facebook.com/smarttenders"><button
-                                        class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
-                                        <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
-                                            data-link="link=&amp;target=_blank" propkey="socialMediaItems_1_icon"><svg
-                                                class="svg-inline--fa fa-facebook-f" aria-hidden="true"
-                                                focusable="false" data-prefix="fab" data-icon="facebook-f" role="img"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
-                                                data-fa-i2svg="">
-                                                <path fill="currentColor"
-                                                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
-                                                </path>
-                                            </svg><!-- <i class="fa-brands fa-facebook-f"></i> Font Awesome fontawesome.com -->
-                                        </div>
-                                    </button></li>
-                                <li href="https://instagram.com/smarttenders"><button
-                                        class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
-                                        <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
-                                            data-link="link=&amp;target=_blank" propkey="socialMediaItems_2_icon"><svg
-                                                class="svg-inline--fa fa-instagram" aria-hidden="true" focusable="false"
-                                                data-prefix="fab" data-icon="instagram" role="img"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                                                data-fa-i2svg="">
-                                                <path fill="currentColor"
-                                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
-                                                </path>
-                                            </svg><!-- <i class="fa-brands fa-instagram"></i> Font Awesome fontawesome.com -->
-                                        </div>
-                                    </button></li>
-                                <li href="https://linkedin.com/company/smarttenders"><button
-                                        class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
-                                        <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
-                                            data-link="link=&amp;target=_blank" propkey="socialMediaItems_3_icon"><svg
-                                                class="svg-inline--fa fa-linkedin" aria-hidden="true" focusable="false"
-                                                data-prefix="fab" data-icon="linkedin" role="img"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                                                data-fa-i2svg="">
-                                                <path fill="currentColor"
-                                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-                                                </path>
-                                            </svg><!-- <i class="fa-brands fa-linkedin"></i> Font Awesome fontawesome.com -->
-                                        </div>
-                                    </button></li>
-                            </ul>
+                                    data-link="link=&amp;target=_blank&amp;text=John%20Doe">John Doe</div>
+                            </h3>
+                            <p class="TEXT-CONTENT text-base leading-7 text-slate-600 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Customer%20Support%20Specialist">
+                                Customer Support Specialist</div>
+                            </p>
+                            <p class="TEXT-CONTENT mt-6 text-base leading-7 text-slate-600 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=John%20ensures%20that%20all%20your%20queries%20are%20resolved%20promptly%20and%20efficiently.">
+                                John ensures that all your queries are resolved promptly and efficiently.</div>
+                            </p>
                         </div>
-                        <p class="text-sm  lg:mt-0 text-white/60">
+                    </li>
+                </div>
+                <div>
+                    <li class="flex flex-col gap-6 xl:flex-row"><img
+                            class="IMAGE w-52 h-65 aspect-[4/5] flex-none rounded-2xl object-cover"
+                            alt="https://images.unsplash.com/photo-1493106819501-66d381c466f1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1424">
+                        <div class="flex-auto">
+                            <h3
+                                class="TITLE-SECONDARY text-lg font-semibold leading-8 tracking-tight text-slate-900 dark:text-white/90">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=Jane%20Smith">Jane Smith</div>
+                            </h3>
+                            <p class="TEXT-CONTENT text-base leading-7 text-slate-600 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Bid%20Consultant">Bid Consultant</div>
+                            </p>
+                            <p class="TEXT-CONTENT mt-6 text-base leading-7 text-slate-600 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Jane%20provides%20expert%20advice%20on%20how%20to%20create%20winning%20bids%20and%20secure%20contracts.">
+                                Jane provides expert advice on how to create winning bids and secure contracts.
+                            </div>
+                            </p>
+                        </div>
+                    </li>
+                </div>
+                <div>
+                    <li class="flex flex-col gap-6 xl:flex-row"><img
+                            class="IMAGE w-52 h-65 aspect-[4/5] flex-none rounded-2xl object-cover"
+                            alt="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjAzNTV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1MDU1ODh8&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=1424">
+                        <div class="flex-auto">
+                            <h3
+                                class="TITLE-SECONDARY text-lg font-semibold leading-8 tracking-tight text-slate-900 dark:text-white/90">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=Robert%20Brown">Robert Brown</div>
+                            </h3>
+                            <p class="TEXT-CONTENT text-base leading-7 text-slate-600 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Technical%20Support%20Engineer">
+                                Technical Support Engineer</div>
+                            </p>
+                            <p class="TEXT-CONTENT mt-6 text-base leading-7 text-slate-600 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Robert%20assists%20with%20any%20technical%20issues%20you%20may%20encounter%20on%20the%20platform.">
+                                Robert assists with any technical issues you may encounter on the platform.</div>
+                            </p>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <section class="py-10 bg-slate-50 dark:bg-slate-800 sm:py-16 lg:py-20 xl:py-24">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col max-w-6xl gap-12 mx-auto lg:items-center lg:justify-between lg:flex-row">
+                <div class="lg:max-w-md xl:max-w-xl">
+                    <h1 class="TITLE-PRIMARY text-4xl font-extrabold text-slate-900 dark:text-white/90">
                         <div class="_editable_jwu41_1 undefined"
-                            data-link="link=&amp;target=_blank&amp;text=%C2%A9%20Smart%20Tenders%20Scheme%202024%2C%20All%20Rights%20Reserved">
-                            © Smart Tenders Scheme 2024, All Rights Reserved</div>
+                            data-link="link=&amp;target=_blank&amp;text=Our%20Achievements">Our Achievements</div>
+                    </h1>
+                    <p
+                        class="DESC mt-4 text-base font-normal leading-7 text-slate-700 dark:text-white/80 lg:text-lg lg:mt-6 lg:leading-8">
+                    <div class="_editable_jwu41_1 undefined"
+                        data-link="link=&amp;target=_blank&amp;text=We%20are%20proud%20of%20the%20impact%20we%20have%20made%20in%20the%20tendering%20industry.">
+                        We are proud of the impact we have made in the tendering industry.</div>
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-0">
+                    <div class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6  ">
+                        <p class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
+                        <div class="_editable_jwu41_1 undefined" data-link="link=&amp;target=_blank&amp;text=10K%2B">
+                            10K+</div>
+                        </p>
+                        <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Registered%20Service%20Providers">
+                                Registered Service Providers</div>
+                        </h3>
+                    </div>
+                    <div
+                        class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6  border-l border-black/10">
+                        <p class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
+                        <div class="_editable_jwu41_1 undefined" data-link="link=&amp;target=_blank&amp;text=5K%2B">
+                            5K+</div>
+                        </p>
+                        <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Successful%20Bids">Successful Bids</div>
+                        </h3>
+                    </div>
+                    <div
+                        class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6 border-t border-black/10 ">
+                        <p class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
+                        <div class="_editable_jwu41_1 undefined" data-link="link=&amp;target=_blank&amp;text=1K%2B">
+                            1K+</div>
+                        </p>
+                        <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Active%20Tenders">Active Tenders</div>
+                        </h3>
+                    </div>
+                    <div
+                        class="pt-4 dark:border-white/10 pr-4 pb-8 pl-8 sm:pl-12 sm:pt-12 sm:pr-6 border-t border-black/10 border-l border-black/10">
+                        <p class="TEXT-CONTENT text-5xl font-semibold tracking-tight text-slate-900 dark:text-white/90">
+                        <div class="_editable_jwu41_1 undefined" data-link="link=&amp;target=_blank&amp;text=98%25">
+                            98%</div>
+                        </p>
+                        <h3 class="TITLE-SECONDARY mt-3 text-lg font-semibold text-sky-600 dark:text-sky-200">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=Customer%20Satisfaction%20Rate">Customer
+                                Satisfaction Rate</div>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="relative py-10 overflow-hidden bg-slate-50 dark:bg-slate-800">
+        <div class="absolute w-full bottom-0 transform -translate-x-1/2 translate-y-full left-1/2">
+            <div class="w-full h-96 bg-gradient-to-r from-sky-500/20 to-sky-500/60  rounded-full filter blur-3xl">
+            </div>
+        </div>
+        <div>
+            <div class="px-4 mx-auto max-w-7xl py-10 flex flex-col gap-20">
+                <h1 class="TITLE-PRIMARY text-4xl font-semibold text-slate-900 dark:text-white/90">
+                    <div class="_editable_jwu41_1 undefined"
+                        data-link="link=&amp;target=_blank&amp;text=Frequently%20Asked%20Questions">Frequently Asked
+                        Questions</div>
+                </h1>
+                <hr class="border-black/10 dark:border-white/10">
+                <div class="grid grid-cols-1 gap-14 md:grid-cols-3">
+                    <div class="flex flex-col gap-6">
+                        <h2 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=How%20do%20I%20create%20a%20profile%3F">
+                                How do I create a profile?</div>
+                        </h2>
+                        <p class="DESC text-base font-normal text-slate-600 dark:text-white/90">
+                        <div class="_editable_jwu41_1 undefined"
+                            data-link="link=&amp;target=_blank&amp;text=Click%20on%20the%20%27Sign%20Up%27%20button%20and%20follow%20the%20instructions%20to%20create%20your%20profile.">
+                            Click on the 'Sign Up' button and follow the instructions to create your profile.</div>
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-6">
+                        <h2 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=How%20can%20I%20find%20relevant%20tenders%3F">
+                                How can I find relevant tenders?</div>
+                        </h2>
+                        <p class="DESC text-base font-normal text-slate-600 dark:text-white/90">
+                        <div class="_editable_jwu41_1 undefined"
+                            data-link="link=&amp;target=_blank&amp;text=Use%20the%20search%20and%20filter%20options%20to%20find%20tenders%20that%20match%20your%20expertise.">
+                            Use the search and filter options to find tenders that match your expertise.</div>
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-6">
+                        <h2 class="TITLE-SECONDARY text-lg font-semibold text-slate-900 dark:text-white/90">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=&amp;target=_blank&amp;text=What%20is%20the%20bidding%20process%3F">
+                                What is the bidding process?</div>
+                        </h2>
+                        <p class="DESC text-base font-normal text-slate-600 dark:text-white/90">
+                        <div class="_editable_jwu41_1 undefined"
+                            data-link="link=&amp;target=_blank&amp;text=Once%20you%20find%20a%20tender%2C%20click%20on%20it%20to%20view%20details%20and%20submit%20your%20bid%20through%20the%20platform.">
+                            Once you find a tender, click on it to view details and submit your bid through the
+                            platform.</div>
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+    <section class="py-10 bg-gradient-to-b from-gray-900 to-gray-600 sm:py-16 lg:py-20 xl:py-24">
+        <div class="mx-auto px-4 max-w-7xl">
+            <div class="grid items-end max-w-5xl grid-cols-1 mx-auto md:grid-cols-2 gap-y-10 gap-x-48">
+                <div>
+                    <p class="DESC text-base font-semibold text-white/60">
+                    <div class="_editable_jwu41_1 undefined"
+                        data-link="link=&amp;target=_blank&amp;text=Get%20in%20Touch%20with%20Smart%20Tenders%20Scheme">
+                        Get in Touch with Smart Tenders Scheme</div>
+                    </p>
+                    <h2 class="TITLE-PRIMARY mt-6 text-4xl font-semibold text-white md:text-5xl">
+                        <div class="_editable_jwu41_1 undefined"
+                            data-link="link=&amp;target=_blank&amp;text=Need%20Assistance%3F">Need Assistance?</div>
+                    </h2>
+                    <p class="DESC mt-10 text-base font-normal  text-white/90 md:mt-40">
+                    <div class="_editable_jwu41_1 undefined"
+                        data-link="link=&amp;target=_blank&amp;text=Monday-Friday%2C%209%3A00%20am%20to%206%3A00%20pm">
+                        Monday-Friday, 9:00 am to 6:00 pm</div><span class="block text-white/60">
+                        <div class="_editable_jwu41_1 undefined"
+                            data-link="link=&amp;target=_blank&amp;text=Our%20team%20is%20here%20to%20help%20you%20with%20any%20questions%20or%20issues.">
+                            Our team is here to help you with any questions or issues.</div>
+                    </span></p>
+                </div>
+                <div>
+                    <div class="flex flex-col gap-5">
+                        <p class="DESC text-xs font-semibold tracking-widest text-white/60 uppercase">
+                        <div class="_editable_jwu41_1 undefined"
+                            data-link="link=&amp;target=_blank&amp;text=Contact%20Us">Contact Us</div>
+                        </p>
+                        <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
+                                href="mailto:support@smarttendersscheme.com" title="support@smarttendersscheme.com">
+                                <div class="_editable_jwu41_1 undefined"
+                                    data-link="link=&amp;target=_blank&amp;text=support%40smarttendersscheme.com">
+                                    support@smarttendersscheme.com</div>
+                            </button></p>
+                    </div>
+                    <div class="mt-10 md:mt-24">
+                        <p class="DESC text-xs font-semibold tracking-widest text-white/60 uppercase">Follow Us</p>
+                        <div class="grid grid-cols-2 mt-5 gap-y-4 gap-x-8">
+                            <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
+                                    href="https://linkedin.com" title="LinkedIn">
+                                    <div class="_editable_jwu41_1 undefined"
+                                        data-link="link=&amp;target=_blank&amp;text=LinkedIn">LinkedIn</div>
+                                </button></p>
+                            <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
+                                    href="https://twitter.com" title="Twitter">
+                                    <div class="_editable_jwu41_1 undefined"
+                                        data-link="link=&amp;target=_blank&amp;text=Twitter">Twitter</div>
+                                </button></p>
+                            <p class="TEXT-LINK text-base font-normal"><button class="hover:underline text-white/90"
+                                    href="https://facebook.com" title="Facebook">
+                                    <div class="_editable_jwu41_1 undefined"
+                                        data-link="link=&amp;target=_blank&amp;text=Facebook">Facebook</div>
+                                </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black px-6 py-20 md:px-8">
+        <div style="opacity: 1; transform: none;">
+            <div class=" mx-auto max-w-7xl flex flex-col  gap-16">
+                <ul class="w-full flex items-center justify-center gap-8">
+                    <li><button
+                            class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=%2Fhome&amp;target=_blank&amp;text=About%20Us">About Us</div>
+                        </button></li>
+                    <li><button
+                            class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=%2Fhome&amp;target=_blank&amp;text=Our%20Services">Our Services
+                            </div>
+                        </button></li>
+                    <li><button
+                            class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=%2Fhome&amp;target=_blank&amp;text=Projects">Projects</div>
+                        </button></li>
+                    <li><button
+                            class="TEXT-LINK font-semibold  text-slate-50  hover:text-sky-400  dark:hover:text-sky-400 focus:text-sky-500 dark:focus:text-sky-500">
+                            <div class="_editable_jwu41_1 undefined"
+                                data-link="link=%2Fhome&amp;target=_blank&amp;text=Careers">Careers</div>
+                        </button></li>
+                </ul>
+                <div class="flex flex-col items-center gap-8 md:justify-between md:flex-row">
+                    <div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+                        <ul class="flex items-center gap-8 ">
+                            <li href="https://twitter.com/smarttenders"><button
+                                    class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
+                                    <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
+                                        data-link="link=&amp;target=_blank" propkey="socialMediaItems_0_icon"><svg
+                                            class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false"
+                                            data-prefix="fab" data-icon="twitter" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                            </path>
+                                        </svg><!-- <i class="fa-brands fa-twitter"></i> Font Awesome fontawesome.com -->
+                                    </div>
+                                </button></li>
+                            <li href="https://facebook.com/smarttenders"><button
+                                    class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
+                                    <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
+                                        data-link="link=&amp;target=_blank" propkey="socialMediaItems_1_icon"><svg
+                                            class="svg-inline--fa fa-facebook-f" aria-hidden="true" focusable="false"
+                                            data-prefix="fab" data-icon="facebook-f" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                            </path>
+                                        </svg><!-- <i class="fa-brands fa-facebook-f"></i> Font Awesome fontawesome.com -->
+                                    </div>
+                                </button></li>
+                            <li href="https://instagram.com/smarttenders"><button
+                                    class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
+                                    <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
+                                        data-link="link=&amp;target=_blank" propkey="socialMediaItems_2_icon"><svg
+                                            class="svg-inline--fa fa-instagram" aria-hidden="true" focusable="false"
+                                            data-prefix="fab" data-icon="instagram" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                            </path>
+                                        </svg><!-- <i class="fa-brands fa-instagram"></i> Font Awesome fontawesome.com -->
+                                    </div>
+                                </button></li>
+                            <li href="https://linkedin.com/company/smarttenders"><button
+                                    class="TEXT-LINK text-slate-50 hover:text-sky-400 dark:hover:text-sky-400  dark:focus:text-slate-500">
+                                    <div class="_icon-wrapper_1a3wa_1 text-lg" data-library="FontAwesome"
+                                        data-link="link=&amp;target=_blank" propkey="socialMediaItems_3_icon"><svg
+                                            class="svg-inline--fa fa-linkedin" aria-hidden="true" focusable="false"
+                                            data-prefix="fab" data-icon="linkedin" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                            </path>
+                                        </svg><!-- <i class="fa-brands fa-linkedin"></i> Font Awesome fontawesome.com -->
+                                    </div>
+                                </button></li>
+                        </ul>
+                    </div>
+                    <p class="text-sm  lg:mt-0 text-white/60">
+                    <div class="_editable_jwu41_1 undefined"
+                        data-link="link=&amp;target=_blank&amp;text=%C2%A9%20Smart%20Tenders%20Scheme%202024%2C%20All%20Rights%20Reserved">
+                        © Smart Tenders Scheme 2024, All Rights Reserved</div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     </div>
 
 
@@ -4086,7 +3263,7 @@
         src="https://js-design-aibuild.s3.us-west-2.amazonaws.com/assets/onepage/thread/js/1810557201496604673/1720505844873.js?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCXVzLXdlc3QtMiJGMEQCIH%2FHI949Nth6a6bdx%2FypP4m%2BsBt%2BGg%2BKPlcR3ODlYef%2FAiAnLMPVRaW8MPYFKzC5Lo7kpVle9aQUo%2BWI%2Fp%2B%2BrfMPNyq6BQg%2BEAAaDDk0NzU1OTAyOTQ0NiIMm%2FNvFIe5AjiOP4kzKpcF084omW41VA10hrCB9CEBxIk1qDCEeP9LNUeKXwvDOJhLmvgjNMpsIzRPL1bvRrKISOO40wmHezrbihcQO6jT2xzuKa3AGdIQtI%2BYRfzNx5q1VWtaVWKc5qJXHKaXoYrVL0psBiYc7GUKVOw%2BtnHD8gIK7CZGtTGqJhtaGe9t1dGPsNRT5ssg0GbefSJefA5sn5FGBYVuiirY3GTnOX6zGU5wUt%2BOqhqX6ECzP0r04gGZbBfM5k91k%2FIxG75IAHG30Tfeub3pnmokTmcU0Gy9ahhEgzT75w2O%2BvS4mfbWwxunUY5xEhjVSBVMdGMFzAETy1xizQMd4Gq5aVIddrTUTNc255MxywzkexDw5ajxcLBpU%2BuNuIEQ8UJRJnbfv4OK1Canq1KEjk555Y15WrJzItj7PV3vBu8fqfti337QxJMnqpwyoBQ07lndrV5np8i53MDR720uDvHryEL75iLgOZFS8cN6F6dLRHMf4caocR7d95WNbsG0kIzJPRDaMaF99YoSioYmdveUpRpXfP9lBGDWErFb%2BupkgRLilgh%2FL8y7lNv9CeUd51udpPy5OFxzJAXydpDZhFdikMPLx2njUTlcK4YFw9Dv8avhJDYh0IYRpgo2WLriHl42oQoBPHrG8MHD9fd6D4pc6ku7c1dKUoH%2Fq1HDoXaH5WklhJFjzDsbKc5Pj2LuCduiNULsgVypAxXkTN9ZE1gHvrGjyEufbadtX7r4THKaXGaxsJpPvI971Ax4uqcuzhy7Hv0lUrMj%2FP9YG%2FG6UFZzBM%2BPqt8Lpp67vF8aA4WOOvErPLNEKvTxiGn%2BK4GhfZ1Vfvb68pxtppq14N5CiJzCfHLwCPXLRKGVT3k8tMOApgv6i6QrrEySHjy5DoIpMPqzuLQGOrIBjrtzx5%2BNu9hN5BOT7RfwPXRLUv5mn2uVIQksdFfzpj03SR7Ambwa4Bg4oAsLriLVnxpx4DE3536TPghmiVE3ww1AjZekERiQuK09EPS48Dm0cYqm8uBTs6HTKhLBgwuSJhkzhYYrTbQGGWtsx1Y%2FRbuRj4wa1zXl4IxL5sAn%2BpRM8OxD7MDe3bLsw6rZFaC1jzh69%2BSEh7Am%2BXfcmvNcrHBtQJRkBkofM0mg%2Ff71xG8Z5w%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20240710T060823Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Credential=ASIA5ZHXLLLDATKAN7QL%2F20240710%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Signature=9039d94165e4a78502f657958359f092bbc9e79be1498554b5b9753630edc0ff"></script>
 
 
-  
+
 
 </body>
 
