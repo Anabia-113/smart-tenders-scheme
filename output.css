@@ -239,8 +239,7 @@ button,
 input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
-  -webkit-appearance: button;
-  /* 1 */
+  
   background-color: transparent;
   /* 2 */
   background-image: none;
@@ -286,7 +285,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
+  
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -426,7 +425,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  
   /* 2 */
 }
 
@@ -958,7 +957,7 @@ video {
   overflow: visible;
   display: block;
   -webkit-box-orient: horizontal;
-  -webkit-line-clamp: none;
+  
 }
 
 .block {
